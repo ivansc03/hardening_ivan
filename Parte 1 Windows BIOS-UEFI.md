@@ -3,7 +3,7 @@
 Para asegurar la máxima protección en un sistema Windows, es esencial comenzar con una configuración de BIOS adecuada. Para ello, será necesario la activación y ajuste de varios parámetros clave que fortifican la seguridad del proceso de arranque. A continuación, se presenta una guía explicada paso a paso donde se realizarán todas las configuraciones pertinentes para garantizar la máxima protección posible en un sistema Windows, para ello realizaremos todas estas configuración en la BIOS/UEFI de nuestro equipo.
 
 
-### **1. ### **Contraseña de Administración de la BIOS**
+### **1. Contraseña de Administración de la BIOS**
 
 Una de las configuraciones más importantes para garantizar la seguridad del sistema es establecer una contraseña de administrador para la BIOS. Esta contraseña será requerida para cuando se necesite modificar algún parámetro de la BIOS. Realizar esta configuración permite aumentar la seguridad del sistema, evitando que cualquier usuario que no tenga los permisos de administrador pueda realizar algún                                 cambio en la configuración de la BIOS.
 
