@@ -11,7 +11,6 @@ Para activar este parámetro en las BIOS, primeramente, debemos acceder a la BIO
 
 Proyecto 1: Bastionado del arranque del sistema
 
-7
 ![](Aspose.Words.9287f1a1-d33b-471b-85f2-79424c02de49.001.png)![](Aspose.Words.9287f1a1-d33b-471b-85f2-79424c02de49.002.png)
 
 ![](Aspose.Words.9287f1a1-d33b-471b-85f2-79424c02de49.003.jpeg)
