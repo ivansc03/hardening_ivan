@@ -1,4 +1,4 @@
-﻿**Proyecto 1: Protección de la BIOS/UEFI**
+####﻿**Proyecto 1: Protección de la BIOS/UEFI**
 ##
 Para asegurar la máxima protección en un sistema Windows, es esencial comenzar con una configuración de BIOS adecuada. Para ello, será necesario la activación y ajuste de varios parámetros clave que fortifican la seguridad del proceso de arranque. A continuación, se presenta una guía explicada paso a paso donde se realizarán todas las configuraciones pertinentes para garantizar la máxima protección posible en un sistema Windows, para ello realizaremos todas estas configuración en la BIOS/UEFI de nuestro equipo.
 
