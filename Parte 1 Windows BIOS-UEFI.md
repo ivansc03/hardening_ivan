@@ -9,8 +9,6 @@ Una de las configuraciones más importantes para garantizar la seguridad del sis
 
 Para activar este parámetro en las BIOS, primeramente, debemos acceder a la BIOS, iremos al apartado de seguridad en la BIOS y encontraremos la contraseña de administrador y de usuario, la cual explicaremos en el siguiente paso, seleccionaremos a la contraseña de administrador y estableceremos la contraseña.
 
-![](Aspose.Words.9287f1a1-d33b-471b-85f2-79424c02de49.001.png)![](Aspose.Words.9287f1a1-d33b-471b-85f2-79424c02de49.002.png)
-
 ![](Aspose.Words.9287f1a1-d33b-471b-85f2-79424c02de49.003.jpeg)
 
 
