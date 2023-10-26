@@ -1,6 +1,4 @@
-﻿Proyecto 1: Bastionado del arranque del sistema – Iván Sales Cisneros
-
-**Parte 2. Arranque seguro en Linux**
+# **Parte 2. Arranque seguro en Linux**
 
 Para proteger el arranque con contraseña, primeramente debemos editar el archivo de configuración “/etc/grub.d/40\_custom”. Y añadimos al usuario root y su correspondiente contraseña como en la imagen de abajo. Guardaremos el archivo y salimos.
 
