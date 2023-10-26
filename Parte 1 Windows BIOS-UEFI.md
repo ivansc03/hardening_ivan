@@ -1,4 +1,4 @@
-###﻿**Proyecto 1: Protección de la BIOS/UEFI**
+###﻿ **Proyecto 1: Protección de la BIOS/UEFI**
 ##
 Para asegurar la máxima protección en un sistema Windows, es esencial comenzar con una configuración de BIOS adecuada. Para ello, será necesario la activación y ajuste de varios parámetros clave que fortifican la seguridad del proceso de arranque. A continuación, se presenta una guía explicada paso a paso donde se realizarán todas las configuraciones pertinentes para garantizar la máxima protección posible en un sistema Windows, para ello realizaremos todas estas configuración en la BIOS/UEFI de nuestro equipo.
 
@@ -22,7 +22,7 @@ Este parámetro al igual que el anterior se configura de igual manera.
 
 
 
-## **3. ### **Contraseña de Arranque del Dispositivo**
+## **3. Contraseña de Arranque del Dispositivo**
 Otro aspecto crucial es configurar una contraseña de arranque del dispositivo. Esta contraseña se solicitará al intentar arrancar el equipo. Al activar esta opción, se deniega que el sistema arranque sin la contraseña establecida. Esto proporciona una protección adicional contra intentos no autorizados en el sistema.
 
 Para configurar este parámetro, ya una vez dentro de la BIOS, la podemos encontrar ubicada en la misma sección de contraseñas o en una sección separada relacionada con el arranque, este tipo de parámetro viene denominado por “Power On Password”.
@@ -31,7 +31,7 @@ Para configurar este parámetro, ya una vez dentro de la BIOS, la podemos encont
 
 
 
-## **4. ### **Permiso para el arranque desde dispositivos USB**
+## **4. Permiso para el arranque desde dispositivos USB**
 El cuarto paso implica la denegación del permiso para el arranque mediante dispositivos USB. Al desactivar el arranque desde dispositivos USB, se previene la posibilidad de iniciar el sistema desde medios extraíbles no autorizados, lo que evita posibles amenazas de malware.
 
 En mi caso, mi BIOS no contempla la opción comentada anteriormente, por ello voy a explicar cuales son los pasos comunes en la mayoría de UEFI/BIOS para deshabilitar el permiso para el arranque desde dispositivos USB. A pesar de que esta es una función común en muchas BIOS, mi modelo específico no la incluye.
@@ -40,7 +40,7 @@ Normalmente, para poder llevar a cabo esta opción debemos acudir al apartado de
 
 
 
-## **5. ### **Orden de arranque**
+## **5. Orden de arranque**
 
 Configurar el orden de arranque es esencial ya que este define en el sistema cuales los diferentes dispositivos de almacenamiento que van a cargar un sistema, en este parámetro se establecen el orden en que el que el sistema va a leer los distintos dispositivos para cargar el sistema que contenga dicho dispositivo. Establecer un orden de arranque adecuado asegura que el sistema intente iniciar desde fuentes confiables antes de explorar otras opciones.
 
@@ -50,7 +50,7 @@ Esta opción se configura en el apartado denominado “Boot option priotities”
 
 ![](Aspose.Words.9287f1a1-d33b-471b-85f2-79424c02de49.006.jpeg)
 
-## **6. ### **Secure Boot**
+## **6. Secure Boot**
 
 Esta última seguridad es otra se las mas importante para proporcionar una capa adicional de seguridad al sistema.
 
@@ -62,8 +62,8 @@ Para desactivar este permiso deberemos acceder a la sección de configuración d
 
 Además de las opciones comentadas anteriormente, también podemos encontrar otras herramientas de seguridad para blindar aun mas un sistema Windows.
 
-1\. **Configuración de TPM** (Trusted Platform Module): No todas las placas tienes esta función disponibles, ya que es una herramienta mas actual, El TPM es una opción habilitable la BIOS/UEFI, este  proporciona un entorno seguro donde almacenar claves de cifrado para proteger la información.
+**1\. Configuración de TPM** (Trusted Platform Module): No todas las placas tienes esta función disponibles, ya que es una herramienta mas actual, El TPM es una opción habilitable la BIOS/UEFI, este  proporciona un entorno seguro donde almacenar claves de cifrado para proteger la información.
 
-2\. **Configuración de Restricción de Modo de Arranque (Boot Mode Restriction):** Es una caracteristica que puede permitir o denegar que tipo de modo de arranque son permitidos o denegados en el sistema. Los dos modos principales y entre los que podremos ambiar son UEFI y Legacy BIOS.
+**2\. Configuración de Restricción de Modo de Arranque (Boot Mode Restriction):** Es una caracteristica que puede permitir o denegar que tipo de modo de arranque son permitidos o denegados en el sistema. Los dos modos principales y entre los que podremos ambiar son UEFI y Legacy BIOS.
 
-3\. **Configuración de Restricción de Acceso a Puertos** en la BIOS/UEFI se puede controlar las restricciones de los puertos físicos de un ordenador. Dependiendo de cada modelo y marca de la BIOS permitirá mas o menos funcionabilidades, puertos USB, puertos Ethernet, entre otros puertos de entrada/salida.
+**3\. Configuración de Restricción de Acceso a Puertos** en la BIOS/UEFI se puede controlar las restricciones de los puertos físicos de un ordenador. Dependiendo de cada modelo y marca de la BIOS permitirá mas o menos funcionabilidades, puertos USB, puertos Ethernet, entre otros puertos de entrada/salida.
